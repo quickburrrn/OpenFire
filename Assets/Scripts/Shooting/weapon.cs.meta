@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8f7c952f3b660934b89dcfb74028a8f0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - emptyBulletParticle: {fileID: 5007129737010043966, guid: 9ea60bd9897318646923aba14ad57280, type: 3}
+  - muzzleFlash: {fileID: 1541082421793011500, guid: 5374f1fa8b1c20e43942a52f544bd75a, type: 3}
+  - bullet: {fileID: 1546057600504866840, guid: 3004eb6174757a444abdd6787d4bed68, type: 3}
+  - shell: {fileID: 8300000, guid: 63302829625ad06438eac57dd2e1a056, type: 3}
+  - Reload: {fileID: 8300000, guid: ab58a75eb1693ab42ae4ad919701793b, type: 3}
+  - Shoot: {fileID: 8300000, guid: c27508f03f402a14886ec359c22d13db, type: 3}
+  - equip: {fileID: 8300000, guid: 56bb4525b76937346a913fc7ab6d9c33, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7609794181301857048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1183893510167571973}
+  - component: {fileID: 7851944878390304002}
+  - component: {fileID: 6779065518465105393}
+  m_Layer: 5
+  m_Name: Pistol
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1183893510167571973
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7609794181301857048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7851944878390304002
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7609794181301857048}
+  m_CullTransparentMesh: 1
+--- !u!114 &6779065518465105393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7609794181301857048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f7c952f3b660934b89dcfb74028a8f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emptyBulletParticle: {fileID: 5007129737010043966, guid: 9ea60bd9897318646923aba14ad57280, type: 3}
+  muzzleFlash: {fileID: 1541082421793011500, guid: 5374f1fa8b1c20e43942a52f544bd75a, type: 3}
+  bullet: {fileID: 1546057600504866840, guid: 3004eb6174757a444abdd6787d4bed68, type: 3}
+  id: Pistol
+  shakeMagnitude: 0
+  shakeTime: 0
+  shell: {fileID: 8300000, guid: 63302829625ad06438eac57dd2e1a056, type: 3}
+  Reload: {fileID: 8300000, guid: ab58a75eb1693ab42ae4ad919701793b, type: 3}
+  Shoot: {fileID: 8300000, guid: 5c5af772719fa8442866e2bc67ffcdc7, type: 3}
+  ShootVolume: 0.8
+  equip: {fileID: 8300000, guid: 56bb4525b76937346a913fc7ab6d9c33, type: 3}
+  StopClip: {fileID: 0}
+  AutomaticSource: {fileID: 0}
+  AutomaticSourceDelay: 0
+  cooldown: 0.2
+  spred: 0.8
+  magsize: 10
+  ammoInMag: 10
+  reloadTime: 2
+  automatick: 0
+  Firerate: 5
+  burst: 0
+  bulletAmount: 5
+  bulletDelay: 0
+  bulletStatsOverride: 0
